@@ -2,11 +2,11 @@
 Description:
 This repository contains the exploratory data analysis (EDA) and insights derived from customer purchasing behaviors at Instacart, an online grocery store. The goal is to enhance understanding of sales patterns and inform targeted marketing strategies.
 
-The project includes:
+## The project includes:
 
 Data Analysis: An initial analysis using open-source datasets provided by Instacart, as well as a custom customer dataset, to explore sales trends and customer segmentation.
 
-Key Questions Addressed: The analysis answers critical questions for stakeholders, including:
+## Key Questions Addressed: The analysis answers critical questions for stakeholders, including:
 
 Identification of the busiest days and hours for orders.
 Insights into customer spending behaviors at different times of the day.
