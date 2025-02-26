@@ -1,22 +1,113 @@
 # instacart-sales-patterns-analysis-project
-Description:
-This repository contains the exploratory data analysis (EDA) and insights derived from customer purchasing behaviors at Instacart, an online grocery store. The goal is to enhance understanding of sales patterns and inform targeted marketing strategies.
 
-## The project includes:
+## 1. Project Goals
 
-Data Analysis: An initial analysis using open-source datasets provided by Instacart, as well as a custom customer dataset, to explore sales trends and customer segmentation.
+MotivationInstacart is a leading online grocery delivery service, and understanding customer purchasing patterns is essential for optimizing marketing strategies, inventory management, and customer retention. By analyzing sales trends, customer demographics, and product preferences, Instacart can enhance user experience and increase revenue.
 
-## Key Questions Addressed: The analysis answers critical questions for stakeholders, including:
+ObjectiveIdentify key purchasing behaviors, peak shopping hours, and customer segmentation to provide actionable insights for marketing and sales strategies.
 
-Identification of the busiest days and hours for orders.
-Insights into customer spending behaviors at different times of the day.
-Simplified price range groupings for better marketing focus.
-Popular product categories and their order frequencies.
-Customer loyalty distribution and its impact on ordering habits.
-Tools and Technologies: Analysis conducted using Jupyter Notebooks with Python and relevant libraries (pandas, NumPy, matplotlib, seaborn), ensuring clear, well-documented code.
+ScopeThe analysis covers all available sales data from Instacart, focusing on product categories, order frequency, customer demographics, and seasonal trends.
 
-Data Visualization: At least four types of visualizations to effectively communicate insights to stakeholders, with clear labeling and context.
+## 2. Defining the Research Questions and Hypothesis
 
-Final Report: A comprehensive report summarizing methodology, findings, recommendations for marketing strategies, and data citations.
+Research Questions:
 
-This project aims to provide actionable insights for Instacart’s marketing and sales teams, allowing for more effective targeting of customer segments and enhancing overall sales performance.
+What are the most purchased product categories?
+
+What times and days do customers shop the most?
+
+How does customer behavior vary across different demographics?
+
+What factors influence repeat purchases and customer retention?
+
+How can targeted marketing strategies be optimized based on purchase behavior?
+
+Hypothesis:
+
+If marketing campaigns focus on peak shopping hours and high-demand products, sales will increase.
+
+Customer retention rates improve with personalized recommendations and promotions.
+
+Repeat purchases are higher among certain demographics based on income, age, and location.
+
+## 3. Sourcing and Preparing the Data
+
+Data Sources:
+
+Instacart sales transactions (product category, order time, customer ID, price, frequency)
+
+Customer demographic data (age, location, purchase history)
+
+Data Preparation:
+
+Cleaning and removing inconsistencies
+
+Transforming categorical data for analysis
+
+Integrating datasets to identify correlations
+
+Summarizing key metrics for visualization
+
+## 4. Statistical and Visual Analysis
+
+Tools Used:
+
+Python (Pandas, NumPy, Matplotlib, Seaborn)
+
+SQL (for querying customer transaction data)
+
+Tableau (for dashboard visualization)
+
+Descriptive Analysis:
+
+Average Order Value (AOV): $XX.XX
+
+Most popular shopping hours: X PM - X PM
+
+Top 3 product categories: X, Y, Z
+
+Average customer retention rate: X%
+
+Insights:
+
+Customers tend to shop most during [specific time period].
+
+High-frequency customers prefer [specific product categories].
+
+Seasonal trends impact certain product purchases significantly.
+
+Hypothesis Testing:
+
+Null Hypothesis (H0): There is no significant difference between product category and repeat purchases.
+
+Alternative Hypothesis (Ha): Certain product categories have higher repeat purchase rates.
+
+Statistical significance tested at α = 0.05.
+
+Findings:
+
+A strong correlation exists between [customer behavior] and [sales trends].
+
+Specific customer segments exhibit higher retention rates.
+
+Implementing targeted promotions for high-demand products can boost sales by X%.
+
+## 5. Recommendations and Next Steps
+
+Actionable Insights:
+
+Increase promotions for high-demand products during peak hours.
+
+Personalize marketing strategies based on customer purchase history.
+
+Optimize inventory to meet seasonal demand shifts.
+
+Future Analysis:
+
+Predictive modeling for sales forecasting.
+
+Customer lifetime value (CLV) analysis.
+
+A/B testing for marketing campaigns.
+
+Final results will be presented in a detailed report and a PowerPoint presentation for stakeholders, providing clear recommendations for optimizing Instacart’s sales strategies.
